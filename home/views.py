@@ -23,3 +23,8 @@ def staff1(request):
     staffs = staff.objects.all()
     context = { "staffs": staffs }
     return render (request, 'quien/index2.html', context)
+
+def servicios(request):
+    servicio = servicios.objects.all()
+    context = { "servicio": servicio }
+    return render (request, 'servicios/index3.html', context)
