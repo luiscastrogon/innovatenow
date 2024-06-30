@@ -26,4 +26,10 @@ class portafolio(models.Model):
     
     def __str__(self):
         return str(self.nombrePortafolio)
+
+class servicios(models.Model):
+    nombreServicio = models.CharField(max_length=100)
+    infoserv = models.CharField(max_length=700)
     
+    def __str__(self):
+        return str(self.nombreServicio)
