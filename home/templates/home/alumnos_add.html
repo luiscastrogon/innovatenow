@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar alumnos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row mx-5 ml-5">
+            <div class="col-lg-12">
+                <div style=" text-align: center;">
+                    <h2>Formulario Para que te contactemos</h2><br>
+                    <form action="alumnosAdd">
+                       {% csrf_token %} 
+            
+                        <pre>Rut :                   <input type="text" name="rut"></pre>
+                        <pre>Nombre:                 <input type="text" name="nombre"></pre>
+                        <pre>apellido p.:            <input type="text" name="paterno"></pre>
+                        <pre>apellido m.:            <input type="text" name="materno"></pre>
+                        <pre>fecha de nac:           <input type="date" name="fechaNac"></pre>
+                        <pre>Genero :   <select name="genero">
+                            {% for generos in genero %}
+                                <option value="{{genero.id_genero}}">{{genero.genero}}</option>
+                            {% endfor %}
+                            </select>    
+                        </pre>
+                        <pre>Celular :              <input type="text" name="telefono"></pre>
+                        <pre>email :                <input type="text" name="email"></pre>
+                        <input type="submit" name="opcion" value="Agregar">
+                    </form><br>
+                    <a href="{% url 'index3' %}">volver</a>
+                    <br>
+                    <div id="idmensajes">
+                        {% if mensaje %}
+                        {{mensaje}}
+                        {% endif %}
+                    </div>
+            
+                </div>
+
+            </div>
+        </div>
+    </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        function Agregar(idCategory) {
+    
+          console.log('Ingresando a la fila ' + idCategory);
+    
+          Swal.fire({
+    
+            title: "¿Confirma el envio?",
+    
+            text: "seleccion opcion",
+    
+            icon: "warning",
+    
+            showCancelButton: true,
+    
+            confirmButtonColor: "#3085d6",
+    
+            cancelButtonColor: "#d33",
+    
+            confirmButtonText: "Confirmar eliminación"
+        </script>
+    <script>
+        AOS.init();
+   </script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import navbarmenu, staff, portafolio,servicios
+from .models import navbarmenu, staff, portafolio, servicio, Genero, Alumno
 
 
 # Register your models here.
@@ -7,4 +7,6 @@ from .models import navbarmenu, staff, portafolio,servicios
 admin.site.register(navbarmenu)
 admin.site.register(staff)
 admin.site.register(portafolio)
-admin.site.register(servicios)
+admin.site.register(servicio)
+admin.site.register(Genero)
+admin.site.register(Alumno)
