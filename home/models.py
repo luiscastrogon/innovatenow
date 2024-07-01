@@ -15,6 +15,7 @@ class staff(models.Model):
     nombreCompleto = models.CharField(max_length=100)
     cargo = models.CharField(max_length=100)
     soy = models.CharField(max_length=700)
+    foto = models.ImageField(upload_to='static/images/', default='default.png')
     
     def __str__(self):
         return str(self.nombreCompleto)
