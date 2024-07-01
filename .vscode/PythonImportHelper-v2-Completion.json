@@ -1,5 +1,198 @@
 [
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -25,19 +218,19 @@
         "documentation": {}
     },
     {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
         "isExtraImport": true,
-        "detail": "django.contrib",
+        "detail": "django.conf",
         "documentation": {}
     },
     {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
         "isExtraImport": true,
-        "detail": "django.urls",
+        "detail": "django.conf.urls.static",
         "documentation": {}
     },
     {
@@ -55,6 +248,276 @@
         "importPath": "sys",
         "description": "sys",
         "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "innovatenow.home.migrations.0001_initial",
+        "description": "innovatenow.home.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='navbarmenu',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('nombre', models.CharField(max_length=10)),",
+        "detail": "innovatenow.home.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "innovatenow.home.migrations.0002_portafolio_staff_alter_navbarmenu_nombre_and_more",
+        "description": "innovatenow.home.migrations.0002_portafolio_staff_alter_navbarmenu_nombre_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('home', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='portafolio',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('nombrePortafolio', models.CharField(max_length=100)),",
+        "detail": "innovatenow.home.migrations.0002_portafolio_staff_alter_navbarmenu_nombre_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "innovatenow.home.migrations.0003_servicios",
+        "description": "innovatenow.home.migrations.0003_servicios",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('home', '0002_portafolio_staff_alter_navbarmenu_nombre_and_more'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='servicios',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('nombreServicio', models.CharField(max_length=100)),",
+        "detail": "innovatenow.home.migrations.0003_servicios",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "innovatenow.home.migrations.0004_staff_mi",
+        "description": "innovatenow.home.migrations.0004_staff_mi",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('home', '0003_servicios'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='staff',\n            name='mi',\n            field=models.CharField(blank=True, max_length=50, null=True),\n        ),",
+        "detail": "innovatenow.home.migrations.0004_staff_mi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "innovatenow.home.migrations.0005_remove_staff_mi_staff_foto",
+        "description": "innovatenow.home.migrations.0005_remove_staff_mi_staff_foto",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('home', '0004_staff_mi'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='staff',\n            name='mi',\n        ),\n        migrations.AddField(",
+        "detail": "innovatenow.home.migrations.0005_remove_staff_mi_staff_foto",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "innovatenow.home.migrations.0006_genero_alumno",
+        "description": "innovatenow.home.migrations.0006_genero_alumno",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('home', '0005_remove_staff_mi_staff_foto'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Genero',\n            fields=[\n                ('id_genero', models.AutoField(db_column='idGenero', primary_key=True, serialize=False)),\n                ('genero', models.CharField(max_length=20)),",
+        "detail": "innovatenow.home.migrations.0006_genero_alumno",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "innovatenow.home.migrations.0007_rename_servicios_servicio",
+        "description": "innovatenow.home.migrations.0007_rename_servicios_servicio",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('home', '0006_genero_alumno'),\n    ]\n    operations = [\n        migrations.RenameModel(\n            old_name='servicios',\n            new_name='servicio',\n        ),\n    ]",
+        "detail": "innovatenow.home.migrations.0007_rename_servicios_servicio",
+        "documentation": {}
+    },
+    {
+        "label": "HomeConfig",
+        "kind": 6,
+        "importPath": "innovatenow.home.apps",
+        "description": "innovatenow.home.apps",
+        "peekOfCode": "class HomeConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'home'",
+        "detail": "innovatenow.home.apps",
+        "documentation": {}
+    },
+    {
+        "label": "navbarmenu",
+        "kind": 6,
+        "importPath": "innovatenow.home.models",
+        "description": "innovatenow.home.models",
+        "peekOfCode": "class navbarmenu(models.Model):\n    nombre = models.CharField(max_length=20)\n    url = models.CharField(max_length=20)\n    def __str__(self):\n        return str(self.nombre)\nclass staff(models.Model):\n    nombreCompleto = models.CharField(max_length=100)\n    cargo = models.CharField(max_length=100)\n    soy = models.CharField(max_length=700)\n    foto = models.ImageField(upload_to='static/images/', default='default.png')",
+        "detail": "innovatenow.home.models",
+        "documentation": {}
+    },
+    {
+        "label": "staff",
+        "kind": 6,
+        "importPath": "innovatenow.home.models",
+        "description": "innovatenow.home.models",
+        "peekOfCode": "class staff(models.Model):\n    nombreCompleto = models.CharField(max_length=100)\n    cargo = models.CharField(max_length=100)\n    soy = models.CharField(max_length=700)\n    foto = models.ImageField(upload_to='static/images/', default='default.png')\n    def __str__(self):\n        return str(self.nombreCompleto)\nclass portafolio(models.Model):\n    nombrePortafolio = models.CharField(max_length=100)\n    fechaIni = models.DateField(blank=False, null=False)",
+        "detail": "innovatenow.home.models",
+        "documentation": {}
+    },
+    {
+        "label": "portafolio",
+        "kind": 6,
+        "importPath": "innovatenow.home.models",
+        "description": "innovatenow.home.models",
+        "peekOfCode": "class portafolio(models.Model):\n    nombrePortafolio = models.CharField(max_length=100)\n    fechaIni = models.DateField(blank=False, null=False)\n    infoPorta = models.CharField(max_length=700)\n    def __str__(self):\n        return str(self.nombrePortafolio)\nclass servicio(models.Model):\n    nombreServicio = models.CharField(max_length=100)\n    infoserv = models.CharField(max_length=700)\n    def __str__(self):",
+        "detail": "innovatenow.home.models",
+        "documentation": {}
+    },
+    {
+        "label": "servicio",
+        "kind": 6,
+        "importPath": "innovatenow.home.models",
+        "description": "innovatenow.home.models",
+        "peekOfCode": "class servicio(models.Model):\n    nombreServicio = models.CharField(max_length=100)\n    infoserv = models.CharField(max_length=700)\n    def __str__(self):\n        return str(self.nombreServicio)    \nclass Genero(models.Model):\n    id_genero = models.AutoField(db_column=\"idGenero\", primary_key=True)\n    genero = models.CharField(max_length=20, blank=False, null=False)\n    def __str__(self):\n        return str(self.genero)",
+        "detail": "innovatenow.home.models",
+        "documentation": {}
+    },
+    {
+        "label": "Genero",
+        "kind": 6,
+        "importPath": "innovatenow.home.models",
+        "description": "innovatenow.home.models",
+        "peekOfCode": "class Genero(models.Model):\n    id_genero = models.AutoField(db_column=\"idGenero\", primary_key=True)\n    genero = models.CharField(max_length=20, blank=False, null=False)\n    def __str__(self):\n        return str(self.genero)\nclass Alumno(models.Model):\n    rut              = models.CharField(primary_key=True, max_length=10)\n    nombre           = models.CharField(max_length=20)\n    apellido_paterno = models.CharField(max_length=20)\n    apellido_materno = models.CharField(max_length=20)",
+        "detail": "innovatenow.home.models",
+        "documentation": {}
+    },
+    {
+        "label": "Alumno",
+        "kind": 6,
+        "importPath": "innovatenow.home.models",
+        "description": "innovatenow.home.models",
+        "peekOfCode": "class Alumno(models.Model):\n    rut              = models.CharField(primary_key=True, max_length=10)\n    nombre           = models.CharField(max_length=20)\n    apellido_paterno = models.CharField(max_length=20)\n    apellido_materno = models.CharField(max_length=20)\n    fecha_nacimiento = models.DateField(blank=False, null=False) \n    id_genero        = models.ForeignKey('Genero',on_delete=models.CASCADE, db_column='idGenero')  \n    telefono         = models.CharField(max_length=45)\n    email            = models.EmailField(unique=True, max_length=100, blank=True, null=True)\n    def __str__(self):",
+        "detail": "innovatenow.home.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "innovatenow.home.urls",
+        "description": "innovatenow.home.urls",
+        "peekOfCode": "urlpatterns = [\n\tpath('', views.index, name=\"index\"),\n\tpath('quien', views.index2, name=\"index2\"),\n \tpath('servicios', views.index3, name=\"index3\"),\n  \tpath('alumnosAdd', views.alumnosAdd, name='alumnosAdd'),\t\n]",
+        "detail": "innovatenow.home.urls",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "innovatenow.home.views",
+        "description": "innovatenow.home.views",
+        "peekOfCode": "def index(request):\n\tnavbarmenus = navbarmenu.objects.all()\n\tcontext = { \"navbarmenus\": navbarmenus }\t\n\treturn render (request, 'home/index.html', context)\ndef index2(request):\n\tnavbarmenus = navbarmenu.objects.all()\n\tstaffs = staff.objects.all()\n\tcontext = { \n        \"navbarmenus\": navbarmenus,\n        \"staffs\": staffs    ",
+        "detail": "innovatenow.home.views",
+        "documentation": {}
+    },
+    {
+        "label": "index2",
+        "kind": 2,
+        "importPath": "innovatenow.home.views",
+        "description": "innovatenow.home.views",
+        "peekOfCode": "def index2(request):\n\tnavbarmenus = navbarmenu.objects.all()\n\tstaffs = staff.objects.all()\n\tcontext = { \n        \"navbarmenus\": navbarmenus,\n        \"staffs\": staffs    \n    }\t\n\treturn render (request, 'quien/index2.html', context)\ndef index3(request):\n\tnavbarmenus = navbarmenu.objects.all()",
+        "detail": "innovatenow.home.views",
+        "documentation": {}
+    },
+    {
+        "label": "index3",
+        "kind": 2,
+        "importPath": "innovatenow.home.views",
+        "description": "innovatenow.home.views",
+        "peekOfCode": "def index3(request):\n\tnavbarmenus = navbarmenu.objects.all()\n\tservicios = servicio.objects.all()\n\tcontext = { \n        \"navbarmenus\": navbarmenus,\n        \"servicios\": servicios\n    }\t\n\treturn render (request, 'servicios/index3.html', context)\ndef alumnosAdd(request):\n\tif request.method is not \"POST\":",
+        "detail": "innovatenow.home.views",
+        "documentation": {}
+    },
+    {
+        "label": "alumnosAdd",
+        "kind": 2,
+        "importPath": "innovatenow.home.views",
+        "description": "innovatenow.home.views",
+        "peekOfCode": "def alumnosAdd(request):\n\tif request.method is not \"POST\":\n\t\tgeneros = Genero.objects.all()\n\t\tcontext={'generos':generos}\n\t\treturn render(request, 'home/alumnos_add.html', context)\n\telse:\t\n\t\trut=request.post[\"rut\"]\n\t\tnombre=request.post[\"nombre\"]\n\t\taPaterno=request.post[\"paterno\"]\n\t\taMaterno=request.post[\"materno\"]",
+        "detail": "innovatenow.home.views",
+        "documentation": {}
+    },
+    {
+        "label": "\tnavbarmenus",
+        "kind": 5,
+        "importPath": "innovatenow.home.views",
+        "description": "innovatenow.home.views",
+        "peekOfCode": "\tnavbarmenus = navbarmenu.objects.all()\n\tcontext = { \"navbarmenus\": navbarmenus }\t\n\treturn render (request, 'home/index.html', context)\ndef index2(request):\n\tnavbarmenus = navbarmenu.objects.all()\n\tstaffs = staff.objects.all()\n\tcontext = { \n        \"navbarmenus\": navbarmenus,\n        \"staffs\": staffs    \n    }\t",
+        "detail": "innovatenow.home.views",
+        "documentation": {}
+    },
+    {
+        "label": "\tcontext",
+        "kind": 5,
+        "importPath": "innovatenow.home.views",
+        "description": "innovatenow.home.views",
+        "peekOfCode": "\tcontext = { \"navbarmenus\": navbarmenus }\t\n\treturn render (request, 'home/index.html', context)\ndef index2(request):\n\tnavbarmenus = navbarmenu.objects.all()\n\tstaffs = staff.objects.all()\n\tcontext = { \n        \"navbarmenus\": navbarmenus,\n        \"staffs\": staffs    \n    }\t\n\treturn render (request, 'quien/index2.html', context)",
+        "detail": "innovatenow.home.views",
+        "documentation": {}
+    },
+    {
+        "label": "\tnavbarmenus",
+        "kind": 5,
+        "importPath": "innovatenow.home.views",
+        "description": "innovatenow.home.views",
+        "peekOfCode": "\tnavbarmenus = navbarmenu.objects.all()\n\tstaffs = staff.objects.all()\n\tcontext = { \n        \"navbarmenus\": navbarmenus,\n        \"staffs\": staffs    \n    }\t\n\treturn render (request, 'quien/index2.html', context)\ndef index3(request):\n\tnavbarmenus = navbarmenu.objects.all()\n\tservicios = servicio.objects.all()",
+        "detail": "innovatenow.home.views",
+        "documentation": {}
+    },
+    {
+        "label": "\tstaffs",
+        "kind": 5,
+        "importPath": "innovatenow.home.views",
+        "description": "innovatenow.home.views",
+        "peekOfCode": "\tstaffs = staff.objects.all()\n\tcontext = { \n        \"navbarmenus\": navbarmenus,\n        \"staffs\": staffs    \n    }\t\n\treturn render (request, 'quien/index2.html', context)\ndef index3(request):\n\tnavbarmenus = navbarmenu.objects.all()\n\tservicios = servicio.objects.all()\n\tcontext = { ",
+        "detail": "innovatenow.home.views",
+        "documentation": {}
+    },
+    {
+        "label": "\tcontext",
+        "kind": 5,
+        "importPath": "innovatenow.home.views",
+        "description": "innovatenow.home.views",
+        "peekOfCode": "\tcontext = { \n        \"navbarmenus\": navbarmenus,\n        \"staffs\": staffs    \n    }\t\n\treturn render (request, 'quien/index2.html', context)\ndef index3(request):\n\tnavbarmenus = navbarmenu.objects.all()\n\tservicios = servicio.objects.all()\n\tcontext = { \n        \"navbarmenus\": navbarmenus,",
+        "detail": "innovatenow.home.views",
+        "documentation": {}
+    },
+    {
+        "label": "\tnavbarmenus",
+        "kind": 5,
+        "importPath": "innovatenow.home.views",
+        "description": "innovatenow.home.views",
+        "peekOfCode": "\tnavbarmenus = navbarmenu.objects.all()\n\tservicios = servicio.objects.all()\n\tcontext = { \n        \"navbarmenus\": navbarmenus,\n        \"servicios\": servicios\n    }\t\n\treturn render (request, 'servicios/index3.html', context)\ndef alumnosAdd(request):\n\tif request.method is not \"POST\":\n\t\tgeneros = Genero.objects.all()",
+        "detail": "innovatenow.home.views",
+        "documentation": {}
+    },
+    {
+        "label": "\tservicios",
+        "kind": 5,
+        "importPath": "innovatenow.home.views",
+        "description": "innovatenow.home.views",
+        "peekOfCode": "\tservicios = servicio.objects.all()\n\tcontext = { \n        \"navbarmenus\": navbarmenus,\n        \"servicios\": servicios\n    }\t\n\treturn render (request, 'servicios/index3.html', context)\ndef alumnosAdd(request):\n\tif request.method is not \"POST\":\n\t\tgeneros = Genero.objects.all()\n\t\tcontext={'generos':generos}",
+        "detail": "innovatenow.home.views",
+        "documentation": {}
+    },
+    {
+        "label": "\tcontext",
+        "kind": 5,
+        "importPath": "innovatenow.home.views",
+        "description": "innovatenow.home.views",
+        "peekOfCode": "\tcontext = { \n        \"navbarmenus\": navbarmenus,\n        \"servicios\": servicios\n    }\t\n\treturn render (request, 'servicios/index3.html', context)\ndef alumnosAdd(request):\n\tif request.method is not \"POST\":\n\t\tgeneros = Genero.objects.all()\n\t\tcontext={'generos':generos}\n\t\treturn render(request, 'home/alumnos_add.html', context)",
+        "detail": "innovatenow.home.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tgeneros",
+        "kind": 5,
+        "importPath": "innovatenow.home.views",
+        "description": "innovatenow.home.views",
+        "peekOfCode": "\t\tgeneros = Genero.objects.all()\n\t\tcontext={'generos':generos}\n\t\treturn render(request, 'home/alumnos_add.html', context)\n\telse:\t\n\t\trut=request.post[\"rut\"]\n\t\tnombre=request.post[\"nombre\"]\n\t\taPaterno=request.post[\"paterno\"]\n\t\taMaterno=request.post[\"materno\"]\n\t\tfechanac=request.post[\"fechaNac\"]\n\t\tgenero=request.post[\"genero\"]",
+        "detail": "innovatenow.home.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tobjGenero=Genero.objects.get(id_genero",
+        "kind": 5,
+        "importPath": "innovatenow.home.views",
+        "description": "innovatenow.home.views",
+        "peekOfCode": "\t\tobjGenero=Genero.objects.get(id_genero = genero)\n\t\tobj=Alumno.objects.create(rut=rut,\n\t\t\t\t\t\t\t\tnombre=nombre,\n\t\t\t\t\t\t\t\tapellido_paterno=aPaterno,\n\t\t\t\t\t\t\t\tapellido_materno=aMaterno,\n\t\t\t\t\t\t\t\tfecha_nacimiento=fechanac,\n\t\t\t\t\t\t\t\tid_genero=objGenero,\n\t\t\t\t\t\t\t\ttelefono = telefono,\n\t\t\t\t\t\t\t\temail =email,)\n\t\tobj.save()",
+        "detail": "innovatenow.home.views",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\t\t\t\t\t\ttelefono",
+        "kind": 5,
+        "importPath": "innovatenow.home.views",
+        "description": "innovatenow.home.views",
+        "peekOfCode": "\t\t\t\t\t\t\t\ttelefono = telefono,\n\t\t\t\t\t\t\t\temail =email,)\n\t\tobj.save()\n\t\tcontext={'mensaje':\"ok,datos grabados\"}\n\t\treturn render(request, 'home/alumnos_add.html')",
+        "detail": "innovatenow.home.views",
         "documentation": {}
     },
     {
@@ -98,7 +561,7 @@
         "kind": 5,
         "importPath": "innovatenow.innovatenow.settings",
         "description": "innovatenow.innovatenow.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'home'",
         "detail": "innovatenow.innovatenow.settings",
         "documentation": {}
     },
@@ -107,7 +570,7 @@
         "kind": 5,
         "importPath": "innovatenow.innovatenow.settings",
         "description": "innovatenow.innovatenow.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'home'\n]\nMIDDLEWARE = [",
         "detail": "innovatenow.innovatenow.settings",
         "documentation": {}
     },
@@ -170,7 +633,7 @@
         "kind": 5,
         "importPath": "innovatenow.innovatenow.settings",
         "description": "innovatenow.innovatenow.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\",\n]",
         "detail": "innovatenow.innovatenow.settings",
         "documentation": {}
     },
@@ -179,7 +642,7 @@
         "kind": 5,
         "importPath": "innovatenow.innovatenow.settings",
         "description": "innovatenow.innovatenow.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\",\n]\nMEDIA_URL = '/media/'",
         "detail": "innovatenow.innovatenow.settings",
         "documentation": {}
     },
@@ -188,7 +651,7 @@
         "kind": 5,
         "importPath": "innovatenow.innovatenow.settings",
         "description": "innovatenow.innovatenow.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\",\n]\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'",
         "detail": "innovatenow.innovatenow.settings",
         "documentation": {}
     },
@@ -197,7 +660,7 @@
         "kind": 5,
         "importPath": "innovatenow.innovatenow.settings",
         "description": "innovatenow.innovatenow.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\",\n]\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type",
         "detail": "innovatenow.innovatenow.settings",
         "documentation": {}
     },
@@ -206,7 +669,34 @@
         "kind": 5,
         "importPath": "innovatenow.innovatenow.settings",
         "description": "innovatenow.innovatenow.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\",\n]\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "innovatenow.innovatenow.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "innovatenow.innovatenow.settings",
+        "description": "innovatenow.innovatenow.settings",
+        "peekOfCode": "STATICFILES_DIRS = [\n    BASE_DIR / \"static\",\n]\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "innovatenow.innovatenow.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "innovatenow.innovatenow.settings",
+        "description": "innovatenow.innovatenow.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "innovatenow.innovatenow.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "innovatenow.innovatenow.settings",
+        "description": "innovatenow.innovatenow.settings",
+        "peekOfCode": "MEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "innovatenow.innovatenow.settings",
         "documentation": {}
     },
@@ -224,7 +714,7 @@
         "kind": 5,
         "importPath": "innovatenow.innovatenow.urls",
         "description": "innovatenow.innovatenow.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('home.urls'))\n]\nif settings.DEBUG:\n    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
         "detail": "innovatenow.innovatenow.urls",
         "documentation": {}
     },

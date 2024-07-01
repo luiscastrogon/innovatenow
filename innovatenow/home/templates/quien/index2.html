@@ -1,0 +1,86 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovatenow quienes somos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #eaa169;">
+        <a class="navbar-brand">
+            <img src="{% static 'images/innovatenowlogo.png' %}" width="60" height="30" class="d-inline-block align-top" alt="">
+            Innovatenow
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                {% for navbarmenu in navbarmenus %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ navbarmenu.url }}">{{ navbarmenu.nombre }}</a>
+                </li>
+                {% endfor %}
+            </ul>          
+        </div>
+    </nav>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mt-3">
+                <img src="{% static 'images/beststaff.png' %}" class="img-fluid" alt="...">
+            </div>
+            <div class="col-lg-6 mt-3">        
+                <br>
+                <br>                
+                <p class="lead">Conoce a las mentes de este gran equipo.</p>
+                <br>
+                <br>
+                <img src="{% static 'images/mente.png' %}" class="img-fluid" alt="...">
+                <br>
+                <br>
+                <br>
+                <p class="lead">Las innovaciones son nuevas formas de hacer las cosas o incluso productos totalmente nuevos que cambian la forma en que funciona la economía (Schumpeter, 1961).</p>                
+            </div>
+        </div>
+        <div class="row">
+            {% for staff in staffs %}
+            <div class="col-lg-6 mt-3">                
+                <div class="card-group">
+                    <div class="card">                    
+                        <img src="{{ staff.foto }}" width="200" height="300" class="card-img-top" alt="...">
+                        <div class="card-body">                    
+                            <h5 class="card-title">{{ staff.nombreCompleto }}</h5>
+                            <p class="card-text">{{ staff.soy }}</p>
+                            <p class="card-text"><small class="text-muted">{{ staff.cargo }}</small></p>                   
+                        </div>
+                    </div>                
+                </div>
+            </div>
+            {% endfor %}
+        </div> 
+    </div>    
+    
+
+    <footer style="background-color: rgb(223, 227, 217); " >
+        <div class="container mt-5">
+          <div class="row">            
+            <div class="col-lg-6">
+              <h5>Contacto</h5>
+              <p>Correo electrónico: info@innoactenow.cl</p>
+              <p>Teléfono: +56976856317</p>
+            </div>
+            <div class="col-lg-6">
+              <h5>Derechos de autor</h5>
+              <p>(c) 2024 wwww.innoactenow.cl. <br> Todos los derechos reservados.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
